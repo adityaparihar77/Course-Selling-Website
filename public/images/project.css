@@ -1,0 +1,369 @@
+.tall {
+  /* min-height: 400vh; */
+  text-align: center;
+
+}
+
+.tall h1 {
+  margin: 30px;
+  padding-top: 20px;
+}
+
+header {
+  color: white;
+  position: sticky;
+  top: 0;
+  background-color: rgb(6, 6, 6);
+  height: 80px;
+  box-shadow: rgba(0, 0, 0, 0);
+}
+
+nav {
+  font-size: 12px;
+  padding-top: 14px;
+}
+ 
+
+
+
+.containerHeader {
+  padding: 0 10vw;
+}
+
+
+.rightBox {
+  display: flex;
+  margin: 30px;
+  padding-left: 500px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.courses{
+  padding-bottom: 200px;
+}
+.footer {
+  text-align: center;
+  text-decoration: solid;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.container {
+  padding: 0 0 -50vw 0vw;
+}
+
+img {
+  width: 100%;
+  bottom: 100px;
+}
+
+.box {
+  background-color: blue;
+}
+
+
+ .image2 img {
+  width: 30%;
+  margin-top: 30px;
+  padding: 6px;
+  padding-left: 500px;
+
+
+} 
+
+
+h2 {
+  padding-top: 5px;
+
+  text-align: center;
+  color: #222223;
+  font-family: poppins, Sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.name {
+  margin-top: 50px;
+  padding-top: 10px;
+  text-decoration: double;
+  color: #222223;
+  font-family: poppins, Sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 30px;
+  font-weight: bold;
+  padding-left: 50px;
+
+}
+
+.flex-container {
+  display: flex;
+  margin-left: 220px;
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 75px;
+
+}
+
+
+.flex-container2 {
+
+  margin-left: 0px;
+  margin-right: 200px;
+  margin-top: 100px;
+  margin-bottom: 75px;
+  display: flex;
+
+}
+
+@media (max-width: 600px) {
+  .flex-container2 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  .flex-container2 {
+    flex-direction: row;
+  }
+}
+
+.CONTAINER {
+
+  width: 100%;
+  padding-right: 30px;
+  text-align: center;
+  justify-items: center;
+  /* border: 2px solid; */
+  border-radius: 10px;
+  display: flex;
+  margin: 5px;
+  padding: 5%;
+  padding-left: 20%;
+  justify-items: baseline;
+
+}
+
+@media(max-width:1112px) {
+  .CONTAINER {
+    padding-left: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .flex-container {
+    margin-left: 40px;
+    width: 80%;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tall {
+    margin: 1px;
+  }
+}
+
+
+
+
+
+
+
+
+.CONTAINER1,
+.CONTAINER2,
+.CONTAINER3,
+.CONTAINER4 {
+  margin: 2px;
+  padding: 5px;
+  justify-content: center;
+  border: 0;
+}
+
+.CONTAINER1 img {
+  padding-left: 40%;
+  padding-right: 5%;
+
+
+  width: 60%;
+}
+
+.CONTAINER2 img {
+  padding-left: 40%;
+  padding-right: 5%;
+
+
+  width: 60%;
+}
+
+.CONTAINER3 img {
+  padding-left: 40%;
+  padding-right: 5%;
+
+
+  width: 60%;
+}
+
+.CONTAINER4 img {
+  padding-left: 40%;
+  padding-right: 5%;
+
+
+  width: 60%;
+}
+
+
+
+.im1,
+.im2,
+.im3,
+.im4,
+.im5,
+.im6 {
+  padding: 70px;
+}
+
+.im1 img,
+.im2 img,
+.im3 img,
+.im4 img,
+.im5 img,
+.im6 img {
+  width: 60%;
+  padding: 2px;
+
+}
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.CONTAINERSS {
+  display: flex;
+  flex-direction: row;
+}
+
+.information h2 {
+  background-color: dodgerblue;
+}
+
+
+
+
+
+
+@media (max-width: 1112px ) {
+
+
+  .containerHeader {
+    padding: 0 2vw;
+  }
+
+  header {
+    height: 100px;
+    position: sticky;
+
+  }
+
+  .right {
+    flex-direction: column;
+  }
+
+  .rightBox {
+    width: 10%;
+    padding-top: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  
+    padding-right: 100px;
+    margin: 0px;
+    
+  }
+  header{
+    height: 250px;
+  }
+
+  .courses{
+    padding-top: 5px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    
+  }
+  .mx-7{
+    margin: 0;
+    padding: 5px;
+  }
+
+  .left img{
+    width: 200%;
+    height: 20%;
+    margin: 10px;
+  }
+  .tall p{
+    justify-items: center;
+    margin: 9px;
+    align-items: center;
+
+  }
+
+  .footer{
+   padding: 5px;
+  }
+
+}
+
+
+.bg{
+  background-color: black;
+}
+.navbarr{
+  padding-left: 1000px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* .social_media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 5px;
+  
+  width: 15%;
+} */

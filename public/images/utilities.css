@@ -1,0 +1,55 @@
+.flex{
+  display:flex;
+}
+
+.items-center{
+  align-items:center;
+} 
+
+.justify-center{
+  justify-content: center;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.semibold{
+  font-weight: bolder;
+}
+
+
+
+.my-2{
+  margin: 18px 0;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.s1{
+  text-align:justify;
+  height: 112vh;
+}
+
+.semibold{
+  font-weight: bolder;
+}
+
+.mx-2{
+  margin-left: 50px;
+  margin-right: 50px;
+
+
+}
+.mx-7{
+  margin-left: 35px;
+  margin-right: 35px;
+
+
+}
